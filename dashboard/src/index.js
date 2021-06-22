@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import './index.css';
-import Mainbody from './Mainbody';
-import Sidenav from './Sidenav';
+// import Mainbody from './Mainbody';
+// import Sidenav from './Sidenav';
 
 
 
 ReactDOM.render(
-  [
-    <Sidenav/>,
-    <Mainbody/>,  
-  ],
+  <>
+   <App/>
+  </>,
   document.getElementById('root')
 );
 
