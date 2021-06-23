@@ -1,13 +1,13 @@
-import React from 'react'
-import './index.css'
-import Mainbody from './Mainbody';
-import Sidenav from './Sidenav';
+import React from "react";
+import "./index.css";
+import Mainbody from "./Mainbody";
+import Sidenav from "./Sidenav";
 const App = () => {
-    return (
-        <>
-            <Sidenav />
-            <Mainbody />
-        </>
-    )
-}
-export default App
+  return (
+    <>
+      <Sidenav />
+      <Mainbody />
+    </>
+  );
+};
+export default App;
