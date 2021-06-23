@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-const CompletedCard = () => {
+const CompletedProjectsCard = () => {
   return (
     <div className="card">
       <h5 className="cardtitle">Create a Dahboard concept</h5>
@@ -18,4 +18,4 @@ const CompletedCard = () => {
   );
 };
 
-export default CompletedCard;
+export default CompletedProjectsCard;
