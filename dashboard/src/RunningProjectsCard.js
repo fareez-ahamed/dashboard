@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
+import "./card.css";
 
-const RunningProjectsCard = () => {
+const RunningprojectsCard = () => {
   return (
     <div className="card">
       <h5 className="cardtitle">Create a Dahboard concept</h5>
@@ -19,4 +19,4 @@ const RunningProjectsCard = () => {
   );
 };
 
-export default RunningProjectsCard;
+export default RunningprojectsCard;
