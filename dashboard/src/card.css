@@ -1,0 +1,40 @@
+.card{
+background-color: black;
+border-radius: 5px ;
+width:80%;
+height: 24%;
+color:white;
+}
+.cardchild{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.cardbtn{
+  position: relative;
+  top:15%;
+  /* bottom:2%; */
+  left:8%;
+}
+.cardperc{
+   position: relative;
+  top:1%;
+  left:60%;
+
+}
+.cardtitle{
+  position: relative;
+  top:10%;
+  left:8%
+}
+.cardcheck{
+  position: relative;
+  left: 90%;
+}
+
+.fa-chevron-right{
+  position: relative;
+  bottom:15%;
+  left:90%;
+}
